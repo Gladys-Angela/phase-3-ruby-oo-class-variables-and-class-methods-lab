@@ -41,7 +41,9 @@ describe Song do
       Song.class_variable_set(:@@genre_count, {})
 
       # create new instances using the Song class
-      Song.new("Lucifer", "Jay-Z", "rap")
+      
+      
+      
       Song.new("99 Problems", "Jay-Z", "rap")
       Song.new("hit me baby one more time", "Brittany Spears", "pop")
     end
